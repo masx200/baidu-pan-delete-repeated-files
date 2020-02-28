@@ -14,10 +14,10 @@
   resolved "https://registry.npmjs.org/@masx200/event-emitter-target/-/event-emitter-target-1.1.5.tgz#d176c743eb67dca7d65984293c19a56284d55e03"
   integrity sha512-+SIaAsoFZ0UioQRrQ0Yf7prpfchsx4G4KunDFsSJSo3haVBk2IXOI4PdE+Mg6hiSelSHoxgIf5MUbjlglMpnxQ==
 
-"@masx200/fetch-baidu-pan-files@^1.0.7":
-  version "1.0.7"
-  resolved "https://registry.npmjs.org/@masx200/fetch-baidu-pan-files/-/fetch-baidu-pan-files-1.0.7.tgz#9f781e7f0d3186ecf0df742f67c5ef1fe0dada1c"
-  integrity sha512-JAL+zVYb+BStF+oJ4h2qKvXDkNsERNZvhD0IgEl1QQ2TAP1vzev/VHySJv9+CPlBQTBPZsMT+IB0DCF6x0v/NA==
+"@masx200/fetch-baidu-pan-files@^1.0.8":
+  version "1.0.8"
+  resolved "https://registry.npmjs.org/@masx200/fetch-baidu-pan-files/-/fetch-baidu-pan-files-1.0.8.tgz#f188bdb6dcb7453800e4091672f9415be59809c1"
+  integrity sha512-CQRG+RVPO0GeahEtTHmWsYNPh34ZwPr4tecl3CzakHmZdFWiaQjFNemOwLuZoibzdk/BiVFViC3triW3qWY6sQ==
   dependencies:
     "@masx200/async-task-current-limiter" "^1.0.7"
     "@types/btoa" "^1.2.3"
