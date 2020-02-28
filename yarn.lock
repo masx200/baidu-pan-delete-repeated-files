@@ -34,6 +34,21 @@
     prettier "^1.19.1"
     typescript "^3.8.2"
 
+"@masx200/mongodb-file-find-md5-repeat@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.npmjs.org/@masx200/mongodb-file-find-md5-repeat/-/mongodb-file-find-md5-repeat-1.0.1.tgz#1be7efc36e4612a3a2d8fc3af486992c7f07d008"
+  integrity sha512-oU1Ntaz9bjgVShN2Mn/J+nQnceweh9oYe8cONVIwZe+YB0eS8snJDTZ9KbrcEuVf05S0U94z2LQQKf5bjOoDPQ==
+  dependencies:
+    "@types/fs-extra" "^8.1.0"
+    "@types/mongodb" "^3.3.16"
+    "@types/node" "^13.7.6"
+    "@types/prettier" "^1.19.0"
+    fs-extra "^8.1.0"
+    mongodb "^3.5.4"
+    prettier "^1.19.1"
+    tslib "^1.11.0"
+    typescript "^3.8.2"
+
 "@types/bson@*":
   version "4.0.1"
   resolved "https://registry.npmjs.org/@types/bson/-/bson-4.0.1.tgz#2bfc80819e7055b76d5496d5344ed23e5d12bbb2"
