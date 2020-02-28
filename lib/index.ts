@@ -19,6 +19,6 @@ async function start() {
         .flat();
     console.log("要删除的文件", filestodelete);
     await deletefiles(filestodelete);
-    console.log("删除文件成功!");
+    console.log("删除文件全部成功!");
 }
 export { start };
