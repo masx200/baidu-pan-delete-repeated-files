@@ -1,0 +1,31 @@
+{
+    "name": "baidu-pan-delete-repeated-files",
+    "version": "1.0.0",
+    "description": "删除百度网盘中重复的文件,数据从mongodb中获取.这个代码库是`百度网盘批量清理重复文件计划`的一部分。",
+    "main": "lib/index.js",
+    "scripts": {
+        "prettier": "prettier ./lib/*.ts *.json *.md --write",
+        "build": "tsc ",
+        "start": "node lib/cli.js"
+    },
+    "repository": "git+https://github.com/masx200/baidu-pan-delete-repeated-files.git",
+    "keywords": [],
+    "author": "masx200 <34191203+masx200@users.noreply.github.com>",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/masx200/baidu-pan-delete-repeated-files/issues"
+    },
+    "homepage": "https://github.com/masx200/baidu-pan-delete-repeated-files#readme",
+    "dependencies": {
+        "@masx200/fetch-baidu-pan-files": "^1.0.7",
+        "@types/fs-extra": "^8.1.0",
+        "@types/mongodb": "^3.3.16",
+        "@types/node": "^13.7.6",
+        "@types/prettier": "^1.19.0",
+        "fs-extra": "^8.1.0",
+        "mongodb": "^3.5.4",
+        "prettier": "^1.19.1",
+        "tslib": "^1.11.0",
+        "typescript": "^3.8.2"
+    }
+}
