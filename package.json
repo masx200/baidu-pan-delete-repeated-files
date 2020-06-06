@@ -6,11 +6,11 @@
     "type": "module",
     "types": "lib/index.d.ts",
     "name": "@masx200/baidu-pan-delete-repeated-files",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "description": "删除百度网盘中重复的文件,数据从mongodb中获取.这个代码库是`百度网盘批量清理重复文件计划`的一部分。",
     "main": "lib/index.js",
     "scripts": {
-        "prettier": "prettier ./lib/*.ts *.json *.md --write",
+        "prettier": "prettier ./lib/*.ts *.json *.md --write **/*.js",
         "build": "tsc ",
         "start": "node lib/cli.js"
     },
@@ -30,9 +30,9 @@
         "@types/node": "^13.7.6",
         "@types/prettier": "^1.19.0",
         "fs-extra": "^8.1.0",
-        "mongodb": "^3.5.4",
-        "prettier": "^1.19.1",
+        "mongodb": "^3.5.8",
+        "prettier": "^2.0.5",
         "tslib": "^1.11.0",
-        "typescript": "^3.8.2"
+        "typescript": "^3.9.5"
     }
 }
