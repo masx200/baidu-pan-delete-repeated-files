@@ -22,7 +22,8 @@ async function start() {
             return paths.slice(1);
         })
         .flat();
-    console.log("要删除的文件", filestodelete);
+    console.log("要删除的文件");
+    console.log(JSON.stringify(filestodelete, null, 4));
     await deletefiles(filestodelete);
     console.log("删除文件全部成功!");
 }
