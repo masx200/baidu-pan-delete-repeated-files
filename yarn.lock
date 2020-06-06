@@ -14,7 +14,7 @@
   resolved "https://registry.npm.taobao.org/@masx200/event-emitter-target/download/@masx200/event-emitter-target-1.1.7.tgz#11757a805314886ecb54a5aa5fab6815b33b0913"
   integrity sha1-EXV6gFMUiG7LVKWqX6toFbM7CRM=
 
-"@masx200/fetch-baidu-pan-files@^1.0.8":
+"@masx200/fetch-baidu-pan-files@^1.2.0":
   version "1.2.0"
   resolved "https://registry.npm.taobao.org/@masx200/fetch-baidu-pan-files/download/@masx200/fetch-baidu-pan-files-1.2.0.tgz#c89a54a656c6903cb81f843509d2af3f095a2afc"
   integrity sha1-yJpUplbGkDy4H4Q1CdKvPwlaKvw=
