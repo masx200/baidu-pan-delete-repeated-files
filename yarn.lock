@@ -14,10 +14,10 @@
   resolved "https://registry.npm.taobao.org/@masx200/event-emitter-target/download/@masx200/event-emitter-target-1.1.7.tgz#11757a805314886ecb54a5aa5fab6815b33b0913"
   integrity sha1-EXV6gFMUiG7LVKWqX6toFbM7CRM=
 
-"@masx200/fetch-baidu-pan-files@^1.2.4":
-  version "1.2.4"
-  resolved "https://registry.npm.taobao.org/@masx200/fetch-baidu-pan-files/download/@masx200/fetch-baidu-pan-files-1.2.4.tgz#a5a4c31b3de0797b82b41b5cfff7e2b6750381bf"
-  integrity sha1-paTDGz3geXuCtBtc//fitnUDgb8=
+"@masx200/fetch-baidu-pan-files@^1.2.5":
+  version "1.2.5"
+  resolved "https://registry.npm.taobao.org/@masx200/fetch-baidu-pan-files/download/@masx200/fetch-baidu-pan-files-1.2.5.tgz#e22f483f95864790f15c0f7ec228171a0d76a41e"
+  integrity sha1-4i9IP5WGR5DxXA9+wigXGg12pB4=
   dependencies:
     "@masx200/async-task-current-limiter" "^1.0.8"
     "@microsoft/api-extractor" "^7.8.15"
@@ -34,6 +34,7 @@
     mongoose "^5.9.20"
     node-fetch "^2.6.0"
     prettier "^2.0.5"
+    tslib "^2.0.0"
     typescript "^3.9.5"
 
 "@masx200/mongodb-file-find-md5-repeat@^1.0.2":
