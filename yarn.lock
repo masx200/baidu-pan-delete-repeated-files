@@ -14,10 +14,10 @@
   resolved "https://registry.npm.taobao.org/@masx200/event-emitter-target/download/@masx200/event-emitter-target-1.1.7.tgz#11757a805314886ecb54a5aa5fab6815b33b0913"
   integrity sha1-EXV6gFMUiG7LVKWqX6toFbM7CRM=
 
-"@masx200/fetch-baidu-pan-files@^1.2.10":
-  version "1.2.10"
-  resolved "https://registry.npm.taobao.org/@masx200/fetch-baidu-pan-files/download/@masx200/fetch-baidu-pan-files-1.2.10.tgz?cache=0&sync_timestamp=1593613092568&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40masx200%2Ffetch-baidu-pan-files%2Fdownload%2F%40masx200%2Ffetch-baidu-pan-files-1.2.10.tgz#b06be2f3553a6e3b198ec4e068610bbd1ef5a6ff"
-  integrity sha1-sGvi81U6bjsZjsTgaGELvR71pv8=
+"@masx200/fetch-baidu-pan-files@^1.2.11":
+  version "1.2.11"
+  resolved "https://registry.npm.taobao.org/@masx200/fetch-baidu-pan-files/download/@masx200/fetch-baidu-pan-files-1.2.11.tgz#0b4aa753110e3067e3e14cd1929d4db78a9b5d37"
+  integrity sha1-C0qnUxEOMGfj4UzRkp1Nt4qbXTc=
   dependencies:
     "@masx200/async-task-current-limiter" "^1.0.8"
     "@microsoft/api-extractor" "^7.8.15"
