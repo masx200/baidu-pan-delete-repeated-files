@@ -37,10 +37,10 @@
     tslib "^2.0.0"
     typescript "^3.9.5"
 
-"@masx200/mongodb-file-find-md5-repeat@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.npm.taobao.org/@masx200/mongodb-file-find-md5-repeat/download/@masx200/mongodb-file-find-md5-repeat-1.0.2.tgz#58a254dc864274575494438098c678ec15f0698d"
-  integrity sha1-WKJU3IZCdFdUlEOAmMZ47BXwaY0=
+"@masx200/mongodb-file-find-md5-repeat@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.npm.taobao.org/@masx200/mongodb-file-find-md5-repeat/download/@masx200/mongodb-file-find-md5-repeat-1.0.3.tgz#37a37598d0bd071a4261cfd539ef85548adea31c"
+  integrity sha1-N6N1mNC9BxpCYc/VOe+FVIreoxw=
   dependencies:
     "@types/fs-extra" "^9.0.1"
     "@types/mongodb" "^3.5.25"
