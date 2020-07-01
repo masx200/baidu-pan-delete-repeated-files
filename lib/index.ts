@@ -4,7 +4,7 @@ import {
 import findrepeat from "@masx200/mongodb-file-find-md5-repeat";
 import fsextra from "fs-extra";
 async function start() {
-    console.log('Find records of duplicate files from the database.')
+    console.log("Find records of duplicate files from the database.");
     // const panenv = await initPANENV();
     const jsonfile = await findrepeat(
         "baidupan",
@@ -25,6 +25,8 @@ async function start() {
         .flat();
     console.log("要删除的文件");
     console.log(JSON.stringify(filestodelete, null, 4));
+    // 排序一下文件名
+    filestodelete.sort();
     await deletefiles(filestodelete);
     console.log("删除文件全部成功!");
 }
