@@ -4,6 +4,7 @@ import {
 import findrepeat from "@masx200/mongodb-file-find-md5-repeat";
 import fsextra from "fs-extra";
 async function start() {
+    console.log('Find records of duplicate files from the database.')
     // const panenv = await initPANENV();
     const jsonfile = await findrepeat(
         "baidupan",
