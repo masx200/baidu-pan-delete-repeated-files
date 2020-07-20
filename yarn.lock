@@ -70,7 +70,7 @@
     "@rushstack/node-core-library" "3.24.4"
     "@rushstack/ts-command-line" "4.4.5"
     colors "~1.2.1"
-    lodash "~4.17.15"
+    lodash "~4.17.19"
     resolve "~1.17.0"
     source-map "~0.6.1"
     typescript "~3.7.2"
@@ -347,9 +347,9 @@ lodash.isequal@^4.0.0:
   resolved "https://registry.npm.taobao.org/lodash.isequal/download/lodash.isequal-4.5.0.tgz#415c4478f2bcc30120c22ce10ed3226f7d3e18e0"
   integrity sha1-QVxEePK8wwEgwizhDtMib30+GOA=
 
-lodash@~4.17.15:
-  version "4.17.15"
-  resolved "https://registry.npm.taobao.org/lodash/download/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
+lodash@~4.17.19:
+  version "4.17.19"
+  resolved "https://registry.npm.taobao.org/lodash/download/lodash-4.17.19.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
   integrity sha1-tEf2ZwoEVbv+7dETku/zMOoJdUg=
 
 memory-pager@^1.0.2:
