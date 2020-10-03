@@ -55,5 +55,5 @@ yarn start
 例如： "mongodb://127.0.0.1:27017/?readPreference=primary&appname=MongoDB%20Compass%20Community&ssl=false"
 
 ```shell
-fetch-file-list-to-mongodb --db=baidupan  --collect=panfile --mongourl=mongodb://127.0.0.1:27017
+baidu-pan-delete-repeated-files --db=baidupan  --collect=panfile --mongourl=mongodb://127.0.0.1:27017
 ```
