@@ -1,16 +1,16 @@
 import {
     deletefiles /* , initPANENV  */,
-} from "@masx200/fetch-baidu-pan-files";
+} from "@masx200/fetch-baidu-pan-files-api";
 import findrepeat from "@masx200/mongodb-file-find-md5-repeat";
 import fsextra from "fs-extra";
 async function start() {
     console.log("Find records of duplicate files from the database.");
     // const panenv = await initPANENV();
-    const jsonfile = await findrepeat(
+    const dataarray = await findrepeat(
         "baidupan",
         /* "pan_" + panenv.user, */ "panfile"
     );
-    const dataarray = await fsextra.readJSON(jsonfile);
+   // const dataarray = await fsextra.readJSON(jsonfile);
     if (!Array.isArray(dataarray)) {
         throw TypeError("invalid data array");
     }
