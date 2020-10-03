@@ -10,7 +10,7 @@
 
 https://github.com/masx200/baidu-pan-delete-repeated-files
 
-https://github.com/masx200/fetch-baidu-pan-files
+https://github.com/masx200/fetch-baidu-pan-files-api
 
 https://github.com/masx200/fetch-file-list-to-mongodb
 
