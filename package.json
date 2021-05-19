@@ -7,7 +7,7 @@
     "type": "module",
     "types": "lib/index.d.ts",
     "name": "@masx200/baidu-pan-delete-repeated-files",
-    "version": "1.2.2",
+    "version": "1.2.3",
     "description": "删除百度网盘中重复的文件,数据从mongodb中获取.这个代码库是`百度网盘批量清理重复文件计划`的一部分。",
     "main": "lib/index.js",
     "scripts": {
@@ -24,19 +24,17 @@
     },
     "homepage": "https://github.com/masx200/baidu-pan-delete-repeated-files#readme",
     "dependencies": {
-        "@masx200/fetch-baidu-pan-files-api": "^2.0.1",
+        "@masx200/fetch-baidu-pan-files-api": "^2.0.4",
         "@masx200/mini-cli-args-parser": "^1.0.2",
         "@masx200/mongodb-file-find-md5-repeat": "^1.2.1",
-        "@types/fs-extra": "^9.0.1",
-        "@types/mongodb": "^3.5.27",
-        "@types/node": "^14.11.2",
-        "@types/prettier": "^2.1.1",
-        "fs-extra": "^9.0.1"
+        "@types/fs-extra": "^9.0.11",
+        "@types/node": "^15.3.0",
+        "@types/prettier": "^2.2.3",
+        "fs-extra": "^10.0.0"
     },
     "devDependencies": {
-        "mongodb": "^3.6.2",
-        "prettier": "^2.1.2",
-        "tslib": "^2.0.1",
-        "typescript": "^4.0.3"
+        "prettier": "^2.3.0",
+        "tslib": "^2.2.0",
+        "typescript": "^4.2.4"
     }
 }
