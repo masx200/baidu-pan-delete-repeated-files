@@ -7,7 +7,7 @@
     "type": "module",
     "types": "lib/index.d.ts",
     "name": "@masx200/baidu-pan-delete-repeated-files",
-    "version": "1.2.4",
+    "version": "1.2.5",
     "description": "删除百度网盘中重复的文件,数据从mongodb中获取.这个代码库是`百度网盘批量清理重复文件计划`的一部分。",
     "main": "lib/index.js",
     "scripts": {
