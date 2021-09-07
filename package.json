@@ -11,7 +11,7 @@
     "description": "删除百度网盘中重复的文件,数据从mongodb中获取.这个代码库是`百度网盘批量清理重复文件计划`的一部分。",
     "main": "lib/index.js",
     "scripts": {
-        "prettier": "prettier ./lib/*.ts *.json *.md --write **/*.js",
+        "format": "prettier ./lib/*.ts *.json *.md --write **/*.js",
         "build": "tsc ",
         "start": "node lib/cli.js"
     },
@@ -36,5 +36,8 @@
         "prettier": "^2.3.0",
         "tslib": "^2.2.0",
         "typescript": "^4.2.4"
+    },
+    "resolutions": {
+        "mpath": "0.8.4"
     }
 }
