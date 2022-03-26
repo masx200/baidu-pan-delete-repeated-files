@@ -17,7 +17,7 @@
     "scripts": {
         "format": "prettier ./lib/*.ts *.json *.md --write **/*.js *.mjs",
         "build": "rollup -c rollup.config.mjs ",
-        "start": "node lib/cli.js"
+        "start": "node dist/cli.js"
     },
     "repository": "git+https://github.com/masx200/baidu-pan-delete-repeated-files.git",
     "keywords": [],
