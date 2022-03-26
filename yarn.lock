@@ -52,7 +52,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@masx200/baidu-pan-delete-repeated-files@workspace:."
   dependencies:
-    "@masx200/fetch-baidu-pan-files-api": ^3.0.3
+    "@masx200/fetch-baidu-pan-files-api": ^3.0.4
     "@masx200/mini-cli-args-parser": ^1.0.4
     "@masx200/mongodb-file-find-md5-repeat": ^1.2.1
     "@rollup/plugin-commonjs": ^21.0.2
@@ -80,9 +80,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@masx200/fetch-baidu-pan-files-api@npm:^3.0.3":
-  version: 3.0.3
-  resolution: "@masx200/fetch-baidu-pan-files-api@npm:3.0.3"
+"@masx200/fetch-baidu-pan-files-api@npm:^3.0.4":
+  version: 3.0.4
+  resolution: "@masx200/fetch-baidu-pan-files-api@npm:3.0.4"
   dependencies:
     "@masx200/async-task-current-limiter": ^1.0.9
     "@masx200/mini-cli-args-parser": ^1.0.4
@@ -91,7 +91,7 @@ __metadata:
     node-fetch: 2
   bin:
     fetch-baidu-pan-files-api: dist/save-cookie.js
-  checksum: 21e6d0cac4b00da5881d168ff0a4d5697543404495a29f2e824fa7d034a22d909cb22bdb25397d19d82881750c86b3da4b1e9b73410861c328114e03a11601ec
+  checksum: 64738d1077964716edd562ad6fb9e046f7e6f69968e5e2aaf46e86dbe65b873ad62be89b115ac4371ca17bcd12dd83157802f8bd77f064b51297f0edb19e210c
   languageName: node
   linkType: hard
 
