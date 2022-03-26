@@ -39,12 +39,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@masx200/async-task-current-limiter@npm:^1.0.9":
-  version: 1.0.9
-  resolution: "@masx200/async-task-current-limiter@npm:1.0.9"
+"@masx200/async-task-current-limiter@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "@masx200/async-task-current-limiter@npm:2.0.0"
   dependencies:
-    "@masx200/event-emitter-target": ^1.1.7
-  checksum: 5b9379e4e23b0cc32daab407e749b4e7a4fddd2e4a5183d71ac3998b7abd11d043d7a6c76a4fe157749a254eacbdac97371a96f84f1dc6d90fbb7089404884fe
+    "@masx200/event-emitter-target": ^2.0.0
+  checksum: a55cf315923abe1c248e6989ff7f5d3b2c077636077042ef21d0528669aeea341aacaa3c299abe732a20343a07bb62e73337ae912167007760e313c32b1e164d
   languageName: node
   linkType: hard
 
@@ -52,7 +52,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@masx200/baidu-pan-delete-repeated-files@workspace:."
   dependencies:
-    "@masx200/fetch-baidu-pan-files-api": ^3.0.4
+    "@masx200/fetch-baidu-pan-files-api": ^3.0.5
     "@masx200/mini-cli-args-parser": ^1.0.4
     "@masx200/mongodb-file-find-md5-repeat": ^1.2.1
     "@rollup/plugin-commonjs": ^21.0.2
@@ -73,25 +73,25 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@masx200/event-emitter-target@npm:^1.1.7":
-  version: 1.1.9
-  resolution: "@masx200/event-emitter-target@npm:1.1.9"
-  checksum: 7c6b6806a5dfa437abc76fac007c4fa664a214cba25ed6954d56b895ed2522da0d9647846c154c9c292a56ae1c34d2610a8311e0819c8e1c30d2626237dba98a
+"@masx200/event-emitter-target@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "@masx200/event-emitter-target@npm:2.0.0"
+  checksum: 2c48f60f8ff6926cc9c19cf307eecfba4945de50bba294c0a8af438c1eaba3e8bca332616fed255d7abb2d6f8a69c96be88439bd22407be5ccaba2715cb777a9
   languageName: node
   linkType: hard
 
-"@masx200/fetch-baidu-pan-files-api@npm:^3.0.4":
-  version: 3.0.4
-  resolution: "@masx200/fetch-baidu-pan-files-api@npm:3.0.4"
+"@masx200/fetch-baidu-pan-files-api@npm:^3.0.5":
+  version: 3.0.5
+  resolution: "@masx200/fetch-baidu-pan-files-api@npm:3.0.5"
   dependencies:
-    "@masx200/async-task-current-limiter": ^1.0.9
+    "@masx200/async-task-current-limiter": ^2.0.0
     "@masx200/mini-cli-args-parser": ^1.0.4
     cookie: ^0.4.1
     fs-extra: ^10.0.0
     node-fetch: 2
   bin:
     fetch-baidu-pan-files-api: dist/save-cookie.js
-  checksum: 64738d1077964716edd562ad6fb9e046f7e6f69968e5e2aaf46e86dbe65b873ad62be89b115ac4371ca17bcd12dd83157802f8bd77f064b51297f0edb19e210c
+  checksum: 9729beae624b5be351ccfc70b1088aaf7907cdd81da50d799f433d887364baf9e60b9981f0043998c244164bc4dff07fb108b78ad0d1103f4484b0cfdf616af7
   languageName: node
   linkType: hard
 
