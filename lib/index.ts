@@ -1,11 +1,11 @@
 import { deletefiles } from "@masx200/fetch-baidu-pan-files-api";
 import findrepeat from "@masx200/mongodb-file-find-md5-repeat";
 
-async function start(
-    dbname: string = "baidupan",
-    collect: string = "panfile",
-    mongourl: string = "mongodb://127.0.0.1:27017/"
-) {
+async function start({
+    dbname = "baidupan",
+    collect = "panfile",
+    mongourl = "mongodb://127.0.0.1:27017/",
+}: { dbname?: string; collect?: string; mongourl?: string } = {}) {
     console.log("Find records of duplicate files from the database.");
     // const panenv = await initPANENV();
     const dataarray = await findrepeat(dbname, collect, mongourl);

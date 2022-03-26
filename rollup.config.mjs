@@ -4,7 +4,7 @@ import resolve from "@rollup/plugin-node-resolve";
 import { defineConfig } from "rollup";
 import { terser } from "rollup-plugin-terser";
 import ts from "rollup-plugin-ts";
-
+import rollupExternalModules from "rollup-external-modules";
 const terserplugin = terser({
     compress: {
         ecma: 2015,
@@ -17,18 +17,18 @@ const terserplugin = terser({
     mangle: true,
     output: { comments: false, beautify: true },
 });
-const external = [
-    "@masx200/async-task-current-limiter",
-    "@masx200/mini-cli-args-parser",
-    "btoa",
-    "fs-extra",
-    "node-fetch",
-    "cookie",
-];
+// const external = [
+//     "@masx200/async-task-current-limiter",
+//     "@masx200/mini-cli-args-parser",
+//     "btoa",
+//     "fs-extra",
+//     "node-fetch",
+//     "cookie",
+// ];
 const banner = `#!/usr/bin/env node`;
 export default defineConfig([
     {
-        external,
+        external: rollupExternalModules,
         input: "lib/index.ts",
         output: [
             { sourcemap: true, file: "./dist/index.js", format: "esm" },
@@ -42,7 +42,7 @@ export default defineConfig([
         ],
     },
     {
-        external,
+        external: rollupExternalModules,
         input: "lib/cli.ts",
         output: [
             {
@@ -56,7 +56,6 @@ export default defineConfig([
             resolve(),
             commonjs(),
             ts({ transpiler: "typescript" }),
-            ,
             terserplugin,
         ],
     },

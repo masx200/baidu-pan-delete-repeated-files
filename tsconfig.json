@@ -1,5 +1,12 @@
 {
-    "include": ["*.ts", "./**/*.ts", "lib"],
+    "exclude": [
+        "dist"
+    ],
+    "include": [
+        "*.ts",
+        "./**/*.ts",
+        "lib"
+    ],
     "compilerOptions": {
         "skipDefaultLibCheck": true,
         "skipLibCheck": true,

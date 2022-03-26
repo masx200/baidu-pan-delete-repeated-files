@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+// #!/usr/bin/env node
 import parseargs from "@masx200/mini-cli-args-parser";
 import process from "process";
 import { start } from "./index.js";
@@ -19,4 +19,4 @@ if (args["db"]) {
     opts.db = args["db"];
 }
 console.log(opts);
-start(opts.db, opts.collect, opts.mongourl);
+start({ dbname: opts.db, collect: opts.collect, mongourl: opts.mongourl });
