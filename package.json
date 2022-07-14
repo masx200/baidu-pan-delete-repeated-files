@@ -34,6 +34,7 @@
     },
     "homepage": "https://github.com/masx200/baidu-pan-delete-repeated-files#readme",
     "dependencies": {
+        "@masx200/async-task-current-limiter": "^2.1.0",
         "@masx200/fetch-baidu-pan-files-api": "^3.0.5",
         "@masx200/mini-cli-args-parser": "^1.0.5",
         "@masx200/mongodb-file-find-md5-repeat": "^1.2.1"

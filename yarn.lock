@@ -48,10 +48,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@masx200/async-task-current-limiter@npm:^2.1.0":
+  version: 2.1.0
+  resolution: "@masx200/async-task-current-limiter@npm:2.1.0"
+  dependencies:
+    "@masx200/event-emitter-target": 2.0.5
+  checksum: 63fb54d4611eda15050d9034bd7cd97d5eaaa91d3ba1a99513b345e9f098d28dbb7fb93f5f20f18094ca1fa1be5f7da6aad3e941ea41fb1a3ee2ccdf989adfe7
+  languageName: node
+  linkType: hard
+
 "@masx200/baidu-pan-delete-repeated-files@workspace:.":
   version: 0.0.0-use.local
   resolution: "@masx200/baidu-pan-delete-repeated-files@workspace:."
   dependencies:
+    "@masx200/async-task-current-limiter": ^2.1.0
     "@masx200/fetch-baidu-pan-files-api": ^3.0.5
     "@masx200/mini-cli-args-parser": ^1.0.5
     "@masx200/mongodb-file-find-md5-repeat": ^1.2.1
@@ -72,6 +82,15 @@ __metadata:
     baidu-pan-delete-repeated-files: dist/cli.js
   languageName: unknown
   linkType: soft
+
+"@masx200/event-emitter-target@npm:2.0.5":
+  version: 2.0.5
+  resolution: "@masx200/event-emitter-target@npm:2.0.5"
+  dependencies:
+    regenerator-runtime: ^0.13.9
+  checksum: 85f17e51183c8d67b2faf5a1a32e084ca2f880bca191c12655439497936461e794562af7e8b60c27fe9d88a257c558b84652a7b8409cf17865f585dd6c0caddb
+  languageName: node
+  linkType: hard
 
 "@masx200/event-emitter-target@npm:^2.0.0":
   version: 2.0.0
@@ -1503,6 +1522,13 @@ __metadata:
     string_decoder: ^1.1.1
     util-deprecate: ^1.0.1
   checksum: d4ea81502d3799439bb955a3a5d1d808592cf3133350ed352aeaa499647858b27b1c4013984900238b0873ec8d0d8defce72469fb7a83e61d53f5ad61cb80dc8
+  languageName: node
+  linkType: hard
+
+"regenerator-runtime@npm:^0.13.9":
+  version: 0.13.9
+  resolution: "regenerator-runtime@npm:0.13.9"
+  checksum: 65ed455fe5afd799e2897baf691ca21c2772e1a969d19bb0c4695757c2d96249eb74ee3553ea34a91062b2a676beedf630b4c1551cc6299afb937be1426ec55e
   languageName: node
   linkType: hard
 
