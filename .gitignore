@@ -105,3 +105,4 @@ dist
 .tern-port
 *.zip
 *.gz
+.vscode/settings.json

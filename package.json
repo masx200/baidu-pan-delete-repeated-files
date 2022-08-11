@@ -40,22 +40,24 @@
         "@masx200/mongodb-file-find-md5-repeat": "^1.2.1"
     },
     "devDependencies": {
-        "@rollup/plugin-commonjs": "^21.0.2",
-        "@rollup/plugin-node-resolve": "^13.1.3",
-        "@types/fs-extra": "^9.0.11",
-        "@types/node": "^16.6.0",
-        "@types/prettier": "^2.2.3",
+        "@rollup/plugin-commonjs": "^22.0.2",
+        "@rollup/plugin-node-resolve": "^13.3.0",
+        "@types/fs-extra": "^9.0.13",
+        "@types/node": "^18.7.1",
+        "@types/prettier": "^2.7.0",
         "fs-extra": "^10.0.0",
         "prettier": "^2.3.0",
-        "rollup": "^2.70.1",
+        "rollup": "^2.77.2",
         "rollup-external-modules": "^2.0.0",
         "rollup-plugin-terser": "^7.0.2",
-        "rollup-plugin-ts": "^2.0.5",
+        "rollup-plugin-ts": "^3.0.2",
+        "terser": "^5.14.2",
         "tslib": "^2.2.0",
         "typescript": "^4.2.4"
     },
     "packageManager": "yarn@3.2.0",
     "resolutions": {
+        "terser": "^5.14.2",
         "mpath": "0.8.4"
     }
 }

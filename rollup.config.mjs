@@ -26,10 +26,11 @@ const terserplugin = terser({
 //     "cookie",
 // ];
 const banner = `#!/usr/bin/env node`;
+const external = rollupExternalModules;
 export default defineConfig([
     {
-        external: rollupExternalModules,
-        input: "lib/index.ts",
+        external: external,
+        input: "./lib/index.ts",
         output: [
             { sourcemap: true, file: "./dist/index.js", format: "esm" },
             { sourcemap: true, file: "./dist/index.cjs", format: "cjs" },
@@ -42,8 +43,8 @@ export default defineConfig([
         ],
     },
     {
-        external: rollupExternalModules,
-        input: "lib/cli.ts",
+        external: external,
+        input: "./lib/cli.ts",
         output: [
             {
                 banner,
