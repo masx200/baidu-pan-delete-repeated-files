@@ -106,3 +106,4 @@ dist
 *.zip
 *.gz
 .vscode/settings.json
+yarn.lock
